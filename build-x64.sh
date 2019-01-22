@@ -1,3 +1,7 @@
+#!/bin/bash
+
+source ./emsdk/emsdk_env.sh
+
 echo compiling js...
 cp src/x64 src/x64.o
 emcc src/x64.o  -O2 -o ../js/x64.js -s DOUBLE_MODE=0 -s EMTERPRETIFY=1 -s EMTERPRETIFY_ASYNC=1 -s EMTERPRETIFY_WHITELIST="[ \

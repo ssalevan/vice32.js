@@ -26,6 +26,8 @@
 #  02111-1307  USA.
 #
 
+source ./emsdk/emsdk_env.sh
+
 # minimum autoconf version required
 ACONF_VERSION_REQ_MAJ=2
 ACONF_VERSION_REQ_MIN=60
